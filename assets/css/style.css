@@ -2,6 +2,10 @@
   color: rgb(144, 144, 144) !important;
 }
 
+.fs-5 {
+  font-size: 0.9rem !important;
+}
+
 .fs-6 {
   font-size: 0.7rem !important;
 }
