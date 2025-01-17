@@ -6,6 +6,10 @@
   font-size: 0.7rem !important;
 }
 
+.fs-7 {
+  font-size: 0.5rem !important;
+}
+
 .dropdown-toggle:focus,
 .dropdown-toggle:active {
   background: transparent !important;
@@ -20,4 +24,8 @@
 
 .dropdown:focus-within .dropdown-menu {
   background-color: #212529 !important;
+}
+
+p {
+  margin-bottom: 0.5rem;
 }
