@@ -10,8 +10,9 @@
   font-size: 0.5rem !important;
 }
 
-.dropdown-toggle:focus,
-.dropdown-toggle:active {
+.dropdown-toggle:focus-within,
+.dropdown-toggle:active,
+.dropdown-toggle:hover {
   background: transparent !important;
   outline: none;
   color: white;
@@ -28,4 +29,13 @@
 
 p {
   margin-bottom: 0.5rem;
+}
+
+a:hover {
+  color: red !important;
+  background: transparent !important;
+}
+
+.rounded-1 {
+  border-radius: 2px !important;
 }
