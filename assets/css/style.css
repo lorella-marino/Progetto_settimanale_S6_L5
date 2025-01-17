@@ -1,0 +1,23 @@
+.text-secondary {
+  color: rgb(144, 144, 144) !important;
+}
+
+.fs-6 {
+  font-size: 0.7rem !important;
+}
+
+.dropdown-toggle:focus,
+.dropdown-toggle:active {
+  background: transparent !important;
+  outline: none;
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: #212529 !important;
+  border: none !important;
+}
+
+.dropdown:focus-within .dropdown-menu {
+  background-color: #212529 !important;
+}
