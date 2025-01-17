@@ -34,7 +34,7 @@
               <div>
                 <img
                   src="https://img.freepik.com/foto-gratuito/colpo-verticale-di-felice-femmina-dalla-pelle-scura-con-i-capelli-ricci_273609-15519.jpg"
-                  class="rounded-2 border border-primary"
+                  class="rounded-2"
                   width="130"
                   alt="user"
                 />
@@ -76,48 +76,29 @@
                   <div class="col mt-0">
                     <h5 class="text-secondary">Maturity Settings:</h5>
                     <div>
-                      <button
-                        type="button"
-                        class="btn btn-secondary disabled text-white text-start fs-5 rounded-1 mb-4 w-100"
-                      >
+                      <button type="button" class="btn btn-secondary disabled text-start fs-4 rounded-1 mb-4">
                         ALL MATURITY RATINGS
                       </button>
                     </div>
                     <p>Show titles of all maturity ratings for this profile.</p>
                     <div>
-                      <button class="btn btn-outline-secondary rounded-1 fs-5 mt-3 px-4" type="submit">EDIT</button>
+                      <button class="btn btn-outline-secondary rounded-1 fs-4 mt-3 px-4" type="submit">EDIT</button>
                     </div>
                   </div>
                   <hr />
                   <div class="col mt-0">
-                    <div>
-                      <button type="button" class="btn btn-secondary text-start fs-5 rounded-1 mb-4 w-100">
-                        Strive Student
-                      </button>
+                    <h5 class="text-secondary">Autoplay controls</h5>
+                    <div class="form-check d-flex align-items-center">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked />
+                      <label class="form-check-label fs-4 text-secondary" for="flexCheckChecked"
+                        >Autoplay next episode in a series on all devices.
+                      </label>
                     </div>
-                    <div>
-                      <h5 class="text-secondary">Language:</h5>
-                      <div class="dropdown">
-                        <button
-                          class="btn btn-outline-light rounded-1 dropdown-toggle"
-                          type="button"
-                          data-bs-toggle="dropdown"
-                          aria-expanded="false"
-                        >
-                          English
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-center">
-                          <li>
-                            <a class="dropdown-item text-white" href="#">Italian</a>
-                          </li>
-                          <li>
-                            <a class="dropdown-item text-white" href="#">Spanish</a>
-                          </li>
-                          <li>
-                            <a class="dropdown-item text-white" href="#">French</a>
-                          </li>
-                        </ul>
-                      </div>
+                    <div class="form-check d-flex align-items-center">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked />
+                      <label class="form-check-label fs-4 text-secondary" for="flexCheckChecked"
+                        >Autoplay previews while browsing on all devices.
+                      </label>
                     </div>
                   </div>
                 </div>
@@ -126,10 +107,12 @@
           </div>
         </div>
         <hr />
-        <div>
-          <button class="btn btn-outline-secondary rounded-1 fs-5 mt-3" type="submit">Service Code</button>
-          <button class="btn btn-outline-secondary rounded-1 fs-5 mt-3" type="submit">Service Code</button>
-          <button class="btn btn-outline-secondary rounded-1 fs-5 mt-3" type="submit">Service Code</button>
+        <div class="d-flex justify-content-between">
+          <button class="btn btn-light rounded-1 fs-5 text-semibold px-4 mt-3" type="submit">SAVE</button>
+          <button class="btn btn-outline-secondary rounded-1 fs-5 text-semibold px-4 mt-3" type="submit">CANCEL</button>
+          <button class="btn btn-outline-secondary rounded-1 fs-5 text-semibold px-4 mt-3" type="submit">
+            DELETE PROFILE
+          </button>
         </div>
       </div>
     </main>
